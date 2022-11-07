@@ -1,3 +1,8 @@
+from rest_framework.test import APIClient, APITestCase
+
+from music.models import Annotation, Term
+
+
 class TestTermViewSet(APITestCase):
 
     def setUp(self):
